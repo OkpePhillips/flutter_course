@@ -6,7 +6,7 @@ const endAlignment = Alignment.bottomRight;
 
 // ignore: must_be_immutable
 class GradientContainer extends StatelessWidget {
-  GradientContainer(this.colors, {super.key});
+  const GradientContainer(this.colors, {super.key});
 
   final List<Color> colors;
 
@@ -21,7 +21,7 @@ class GradientContainer extends StatelessWidget {
           end: endAlignment,
         ),
       ),
-      child: Center(
+      child: const Center(
         child: DiceRoller(),
       ),
     );
