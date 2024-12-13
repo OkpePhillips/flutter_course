@@ -15,10 +15,12 @@ class QuestionIdentifier extends StatelessWidget {
     final int questionNumber = questionIndex + 1;
     return Container(
       width: 60,
-      height: 80,
+      height: 60,
       alignment: Alignment.center,
       decoration: BoxDecoration(
-        color: isCorrectanswer ? Colors.blue : Colors.red,
+        color: isCorrectanswer
+            ? const Color.fromARGB(255, 40, 243, 14)
+            : Colors.red,
         borderRadius: BorderRadius.circular(30),
       ),
       child: Text(
