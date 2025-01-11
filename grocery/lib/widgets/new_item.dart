@@ -4,7 +4,6 @@ import 'package:http/http.dart' as http;
 
 import 'package:grocery/data/category.dart';
 import 'package:grocery/models/category.dart';
-import 'package:grocery/models/grocery_item.dart';
 
 class NewItem extends StatefulWidget {
   const NewItem({super.key});
